@@ -1,28 +1,26 @@
-# cookiecloud-go-sdk
+// MIT License
+//
+// Copyright (c) 2025 chaunsin
+//
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files (the "Software"), to deal
+// in the Software without restriction, including without limitation the rights
+// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+// copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
+//
+// The above copyright notice and this permission notice shall be included in all
+// copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+// SOFTWARE.
+//
 
-[![GoDoc](https://godoc.org/github.com/chaunsin/cookiecloud-go-sdk?status.svg)](https://godoc.org/github.com/chaunsin/cookiecloud-go-sdk) [![Go Report Card](https://goreportcard.com/badge/github.com/chaunsin/cookiecloud-go-sdk)](https://goreportcard.com/report/github.com/chaunsin/cookiecloud-go-sdk)
-
-一个支持CookieCloud的Go SDK
-
-https://github.com/easychen/CookieCloud
-
-## ✨ 功能
-
-- 获取cookie
-- 更新cookie
-- 支持加解密
-
-## 🔨 安装
-
-- go1.21+
-
-```shell
-go get github.com/chaunsin/cookiecloud-go-sdk@latest
-```
-
-## 🚀 示例
-
-```go
 package example
 
 import (
@@ -72,5 +70,3 @@ func Example() {
 	}
 	log.Println("返回:", updateResp.Action)
 }
-
-```
