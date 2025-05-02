@@ -11,6 +11,7 @@ https://github.com/easychen/CookieCloud
 - 获取cookie
 - 更新cookie
 - 支持加解密
+- 支持重试、限流、hook等功能，基于[resty](github.com/go-resty/resty)
 
 ## 🔨 安装
 
